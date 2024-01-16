@@ -184,7 +184,7 @@ export const RESUME_DATA = {
       title: "WACC Compilor",
       techStack: ["In Progress", "University Project", "Scala"],
       description:
-        "Given a valid Wacc input file, generates executable code compatible with the x86-64 architecture",
+        "Given a valid Wacc input file, generates executable code compatible with the x86-64 architecture.",
       logo: "",
     },
   ],
