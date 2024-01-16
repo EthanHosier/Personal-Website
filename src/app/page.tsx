@@ -16,7 +16,8 @@ import { ProjectCard } from "@/components/project-card";
 
 export const metadata: Metadata = {
   title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
-  description: RESUME_DATA.summary,
+  description:
+    "Ethan Hosier. Second Year Computing Student at Imperial College London, passionate about writing software.",
 };
 
 export default function Page() {
