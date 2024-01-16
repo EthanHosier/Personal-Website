@@ -20,222 +20,117 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Ethan Hosier",
+  initials: "EH",
+  location: "London, UK",
+  locationLink:
+    "https://www.google.com/maps/search/london/@51.4850816,-0.1998848,14z?entry=ttu",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "Second Year Computing Student at Imperial College London, passionate about writing software.",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "Ever since I taught myself Python when I was 13, I've had a passion for writing software. I spend lots of my free time learning new technologies and building cool things. I'd love to connect and help with any projects you are working on!",
+
+  avatarUrl:
+    "https://avatars.githubusercontent.com/u/80335311?s=400&u=e3ffb939cb151c470f31de4b85cff93dfaa6f4b0&v=4",
+  personalWebsiteUrl: "https://ethanhosier.com",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "ethanjhosier@gmail.com",
+    tel: "+447476133726",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/EthanHosier",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/ethan-hosier-623474253/",
         icon: LinkedInIcon,
-      },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Imperial College London",
+      degree: "Bachelor's Degree in Computing",
+      start: "2022",
+      end: "2025",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
+      company: "321 Restaurants",
+      link: "",
+      badges: ["Founder"],
+      title: "Full Stack Developer / Founder",
       logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
+      start: "2023",
+      end: "",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
-    },
-    {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+        "Founded a software startup dedicated to empowering small, independent restaurants through affordable solutions. Conducted market research to understand industry needs and, as the sole full stack developer, developed a comprehensive content management system, dashboard and individualized websites. Gained valuable experience in product development, market analysis, and demonstrated proficiency in designing and implementing full stack solutions. Technologies: Typescript, React/Next.js, Firebase.",
     },
   ],
   skills: [
+    "Java",
+    "Python",
+    "C",
+    "Golang",
+    "Haskell",
+    "Scala",
     "JavaScript",
     "TypeScript",
-    "React/Next.js/Remix",
+    "SQL",
+    "React/Next.js",
+    "React Native",
     "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "Pandas",
+    "Pytorch",
   ],
   projects: [
     {
-      title: "Consultly",
-      techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-      ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
+      title: "Large Language Model (GPT)",
+      techStack: ["Side Project", "Python", "Pytorch", "Jupyter Notebook"],
+      description:
+        "Large language model from scratch, trained on the OpenWebText dataset. Capable of generating human-like text using next token prediction.",
+      logo: "",
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "github.com",
+        href: "https://github.com/EthanHosier/LLM",
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
+      title: "Trello Clone",
+      techStack: ["Side Project", "TypeScript", "Next.js", "Prisma", "MySQL"],
       description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "My personal website and blog. Built with Next.js and Notion API",
+        "Full stack Trello clone with authentication, organizations, workspaces, stripe subscriptions and CRUD operations implemented with server actions.",
       logo: JarockiMeLogo,
       link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
+        label: "github",
+        href: "https://github.com/EthanHosier/Trello-clone",
       },
     },
     {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "Restaurant Dashboard & CMS",
+      techStack: ["Startup", "TypeScript", "React/Next.js"],
       description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
+        "Full stack dashboard enabling customer profiling, bookings and venue management. Includes a content management system for populating websites. Open-sourced from my startup.",
+      logo: JarockiMeLogo,
       link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
+        label: "github",
+        href: "https://github.com/EthanHosier/Trello-clone",
       },
     },
     {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
+      title: "Pop Up",
       techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+        "Side Project",
+        "MVP",
+        "JavaScript",
+        "React Native",
+        "Bluetooth",
       ],
       description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
+        "MVP for my idea of a proximity-based social media mobile app. Profiles of nearby app users dynamically pop up on users' phones as they walk past each other, facilitating real-time interactions.",
       logo: Howdy,
       link: {
         label: "play.google.com",
@@ -243,36 +138,54 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      title: "ARM Compiler & Emulator",
+      techStack: ["University Project", "Group Project", "C"],
       description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
+        "Fully emulated ARMv8 environment, with compilation of C programs into binary.",
+      logo: "",
       link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
+        label: "github.com",
+        href: "https://github.com/EthanHosier/armv8-compilor-emulater",
       },
     },
     {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      title: "RSS Aggregator",
+      techStack: ["Side Project", "Golang", "PostgreSQL", "REST"],
       description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
+        "RSS feed web scraper with a REST API and authentication using api keys and middleware. Stores scraped results in a postreSQL database.",
+      logo: Minimal,
+      link: {
+        label: "github.com",
+        href: "https://github.com/EthanHosier/rssagg",
+      },
     },
     {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      title: "Digit Recognition Neural Network (No ML/Maths Libraries)",
+      techStack: ["Side Project", "Java", "Machine Learning"],
       description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
+        "Deep multilayer perceptron neural network for handwritten digit recognition, without any machine learning or maths libraries. Implemented backpropagation from scratch.",
+      logo: YearProgressLogo,
+      link: {
+        label: "github.com",
+        href: "https://github.com/EthanHosier/mnist-digits-nn",
+      },
     },
     {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      title: "Airbnb Clone",
+      techStack: ["Side Project", "Typescript", "React Native", "Expo"],
+      description: "Airbnb mobile app clone, developed with React Native.",
+      logo: BarepapersLogo,
+      link: {
+        label: "github.com",
+        href: "https://barepapers.com/",
+      },
+    },
+    {
+      title: "WACC Compilor",
+      techStack: ["In Progress", "University Project", "Scala"],
       description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
+        "Given a valid Wacc input file, generates executable code compatible with the x86-64 architecture",
+      logo: "",
     },
   ],
 } as const;
