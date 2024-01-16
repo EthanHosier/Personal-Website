@@ -121,7 +121,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Pop Up",
+      title: "Pop Up!",
       techStack: [
         "Side Project",
         "MVP",
