@@ -100,7 +100,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Restaurant Dashboard & CMS",
-      techStack: ["Startup", "TypeScript", "React/Next.js"],
+      techStack: ["Startup", "TypeScript", "React/Next.js", "Firebase"],
       description:
         "Full stack dashboard enabling customer profiling, bookings and venue management. Includes a content management system for populating websites. Open-sourced from my startup.",
       logo: JarockiMeLogo,
@@ -117,6 +117,7 @@ export const RESUME_DATA = {
         "JavaScript",
         "React Native",
         "Bluetooth",
+        "Firebase",
       ],
       description:
         "MVP for my idea of a proximity-based social media mobile app. Profiles of nearby app users dynamically pop up on users' phones as they walk past each other, facilitating real-time interactions.",
@@ -138,17 +139,6 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Trello Clone",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Prisma", "MySQL"],
-      description:
-        "Full stack Trello clone with authentication, organizations, workspaces, stripe subscriptions and CRUD operations implemented with server actions.",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github",
-        href: "https://github.com/EthanHosier/Trello-clone",
-      },
-    },
-    {
       title: "RSS Aggregator",
       techStack: ["Side Project", "Golang", "PostgreSQL", "REST"],
       description:
@@ -157,6 +147,17 @@ export const RESUME_DATA = {
       link: {
         label: "github.com",
         href: "https://github.com/EthanHosier/rssagg",
+      },
+    },
+    {
+      title: "Trello Clone",
+      techStack: ["Side Project", "TypeScript", "Next.js", "Prisma", "MySQL"],
+      description:
+        "Full stack Trello clone with authentication, organizations, workspaces, stripe subscriptions and CRUD operations implemented with server actions.",
+      logo: JarockiMeLogo,
+      link: {
+        label: "github",
+        href: "https://github.com/EthanHosier/Trello-clone",
       },
     },
     {
@@ -182,7 +183,12 @@ export const RESUME_DATA = {
     },
     {
       title: "Wacc Compilor",
-      techStack: ["In Progress", "University Project", "Scala"],
+      techStack: [
+        "In Progress",
+        "University Project",
+        "Group project",
+        "Scala",
+      ],
       description:
         "Given a valid Wacc input file, generates executable code compatible with the x86-64 architecture.",
       logo: "",
