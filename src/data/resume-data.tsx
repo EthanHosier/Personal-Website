@@ -99,17 +99,6 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Trello Clone",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Prisma", "MySQL"],
-      description:
-        "Full stack Trello clone with authentication, organizations, workspaces, stripe subscriptions and CRUD operations implemented with server actions.",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github",
-        href: "https://github.com/EthanHosier/Trello-clone",
-      },
-    },
-    {
       title: "Restaurant Dashboard & CMS",
       techStack: ["Startup", "TypeScript", "React/Next.js"],
       description:
@@ -146,6 +135,17 @@ export const RESUME_DATA = {
       link: {
         label: "github.com",
         href: "https://github.com/EthanHosier/armv8-compilor-emulater",
+      },
+    },
+    {
+      title: "Trello Clone",
+      techStack: ["Side Project", "TypeScript", "Next.js", "Prisma", "MySQL"],
+      description:
+        "Full stack Trello clone with authentication, organizations, workspaces, stripe subscriptions and CRUD operations implemented with server actions.",
+      logo: JarockiMeLogo,
+      link: {
+        label: "github",
+        href: "https://github.com/EthanHosier/Trello-clone",
       },
     },
     {
