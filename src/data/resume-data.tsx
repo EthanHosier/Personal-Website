@@ -105,8 +105,8 @@ export const RESUME_DATA = {
         "Full stack dashboard enabling customer profiling, bookings and venue management. Includes a content management system for populating websites. Open-sourced from my startup.",
       logo: JarockiMeLogo,
       link: {
-        label: "github",
-        href: "https://github.com/EthanHosier/Trello-clone",
+        label: "github.com",
+        href: "https://github.com/EthanHosier/Restaurant-Dashboard-CMS",
       },
     },
     {
@@ -123,8 +123,8 @@ export const RESUME_DATA = {
         "MVP for my idea of a proximity-based social media mobile app. Profiles of nearby app users dynamically pop up on users' phones as they walk past each other, facilitating real-time interactions.",
       logo: Howdy,
       link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
+        label: "github.com",
+        href: "https://github.com/EthanHosier/smDemo",
       },
     },
     {
@@ -178,7 +178,7 @@ export const RESUME_DATA = {
       logo: BarepapersLogo,
       link: {
         label: "github.com",
-        href: "https://barepapers.com/",
+        href: "https://github.com/EthanHosier/airbnb",
       },
     },
     {
