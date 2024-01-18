@@ -49,7 +49,7 @@ export const RESUME_DATA = {
       },
       {
         name: "CV",
-        url: "https://drive.google.com/file/d/1rKUeM3xN6eDNZ49C-pkqf1rw1WPlR_cn/view?usp=sharing",
+        url: "https://drive.google.com/file/d/1vbW-JQkfF86RI8yQG3VWkzaUReq1_68t/view?usp=sharing",
         icon: "",
       },
     ],
