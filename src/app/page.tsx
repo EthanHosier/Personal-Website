@@ -69,12 +69,16 @@ export default function Page() {
                 <Button
                   key={social.name}
                   className="size-8"
-                  variant="outline"
+                  variant={"outline"}
                   size="icon"
                   asChild
                 >
                   <a href={social.url}>
-                    <social.icon className="size-4" />
+                    {social.icon ? (
+                      <social.icon className="size-4" />
+                    ) : (
+                      <p className="text-xs font-semibold">{social.name}</p>
+                    )}
                   </a>
                 </Button>
               ))}

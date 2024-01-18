@@ -47,6 +47,11 @@ export const RESUME_DATA = {
         url: "https://www.linkedin.com/in/ethan-hosier-623474253/",
         icon: LinkedInIcon,
       },
+      {
+        name: "CV",
+        url: "https://drive.google.com/file/d/1rKUeM3xN6eDNZ49C-pkqf1rw1WPlR_cn/view?usp=sharing",
+        icon: "",
+      },
     ],
   },
   education: [
