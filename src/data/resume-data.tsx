@@ -133,10 +133,10 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "ARM Compiler & Emulator",
+      title: "ARMv8 AArch64 – Assembler and Emulator",
       techStack: ["University Project", "Group Project", "C"],
       description:
-        "Fully emulated ARMv8 environment, with compilation of C programs into binary.",
+        "AArch64 emulator that simulates the execution of an AArch64 binary file on a Raspberry Pi, and AArch64 assembler that translates an AArch64 assembly source file containing A64 instructions into a binary file that can subsequently be executed by the emulator.",
       logo: "",
       link: {
         label: "github.com",
