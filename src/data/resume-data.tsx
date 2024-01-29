@@ -72,7 +72,21 @@ export const RESUME_DATA = {
       start: "2023",
       end: "",
       description:
-        "Founded a software startup dedicated to empowering small, independent restaurants through affordable solutions. Conducted market research to understand industry needs and, as the sole full stack developer, developed a comprehensive content management system, dashboard and individualized websites. Gained valuable experience in product development, market analysis, and demonstrated proficiency in designing and implementing full stack solutions. Technologies: Typescript, React/Next.js, Firebase.",
+        "Founded a software startup dedicated to empowering small, independent restaurants through affordable solutions. Conducted market research to understand industry needs and, as the sole full stack developer, developed a comprehensive content management system, dashboard and individualized websites. Gained valuable experience in product development, market analysis, and demonstrated proficiency in designing and implementing full stack solutions.",
+      technologies: "Technologies: TypeScript, React/Next.js, Firebase.",
+    },
+  ],
+  hackathons: [
+    {
+      name: "AI Ventures Hackathon",
+      link: "",
+      title: "GILO Consulting",
+      start: "January 2024",
+      end: "",
+      badges: ["Sole Technical Member"],
+      description:
+        "Collaborated with two business students to create an AI-powered consulting platform tailored for small businesses and NGOs, which we pitched to venture capitalists. Our platform aimed to tackle issues faced such as the high costs of traditional consulting, limited access to expertise and support, difficulty finding the right experts, and a lack of transparency and accountability. As the sole technical member in our team, I built the entire working demo for our platform, including consultant profiles, gainshare contract generation, a dashboard, and a ChatGPT-powered bot trained to match our customers directly to consultants based on their needs. Gained experience working in a team of diverse skillsets and producing software to strict requirements.",
+      technologies: "Technologies: TypeScript, React/Next.js, OpenAI API.",
     },
   ],
   skills: [
@@ -82,8 +96,9 @@ export const RESUME_DATA = {
     "Golang",
     "Haskell",
     "Scala",
-    "JavaScript",
     "TypeScript",
+    "JavaScript",
+
     "SQL",
     "React/Next.js",
     "React Native",
