@@ -79,11 +79,11 @@ export const RESUME_DATA = {
   hackathons: [
     {
       name: "AI Ventures Hackathon",
-      link: "",
+      link: "https://github.com/EthanHosier/ai-hack/",
       title: "GILO Consulting",
       start: "January 2024",
       end: "",
-      badges: ["24 Hours"],
+      badges: ["24H"],
       description:
         "Worked with two business students to create an AI-powered consulting platform, which we pitched to VCs. Our platform aimed to tackle issues faced such as the high costs of traditional consulting, limited access to expertise and support, difficulty finding the right experts, and a lack of transparency and accountability. As the sole technical member of our team, developed gainshare contract generation, consultant profiles, a dashboard, and a chatbot custom-trained to match our clients directly to the most relevant consultants. Gained valuable experience working in a team with diverse skillsets and producing software quickly.",
       technologies: "Technologies: TypeScript, React/Next.js, OpenAI API.",
