@@ -83,9 +83,9 @@ export const RESUME_DATA = {
       title: "GILO Consulting",
       start: "January 2024",
       end: "",
-      badges: ["Sole Technical Member"],
+      badges: ["24 Hours"],
       description:
-        "Collaborated with two business students to create an AI-powered consulting platform tailored for small businesses and NGOs, which we pitched to venture capitalists. Our platform aimed to tackle issues faced such as the high costs of traditional consulting, limited access to expertise and support, difficulty finding the right experts, and a lack of transparency and accountability. As the sole technical member in our team, I built the entire working demo for our platform, including consultant profiles, gainshare contract generation, a dashboard, and a ChatGPT-powered bot trained to match our customers directly to consultants based on their needs. Gained experience working in a team of diverse skillsets and producing software to strict requirements.",
+        "Worked with two business students to create an AI-powered consulting platform, which we pitched to VCs. Our platform aimed to tackle issues faced such as the high costs of traditional consulting, limited access to expertise and support, difficulty finding the right experts, and a lack of transparency and accountability. As the sole technical member of our team, developed gainshare contract generation, consultant profiles, a dashboard, and a chatbot custom-trained to match our clients directly to the most relevant consultants. Gained valuable experience working in a team with diverse skillsets and producing software quickly.",
       technologies: "Technologies: TypeScript, React/Next.js, OpenAI API.",
     },
   ],
