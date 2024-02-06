@@ -194,45 +194,57 @@ export default function Page() {
 
         <Section>
           <h2 className="text-xl font-bold">Hackathons</h2>
-          {RESUME_DATA.hackathons.map((hackathon) => {
-            return (
-              <Card key={hackathon.name}>
-                <CardHeader>
-                  <div className="flex items-center justify-between gap-x-2 text-base">
-                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
-                      <a className="hover:underline" href={hackathon.link}>
-                        {hackathon.name}
-                      </a>
+          <div className="flex flex-col gap-5">
+            {RESUME_DATA.hackathons.map((hackathon) => {
+              return (
+                <Card key={hackathon.name}>
+                  <CardHeader>
+                    <div className="flex items-center justify-between gap-x-2 text-base">
+                      <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
+                        <a className="hover:underline" href={hackathon.link}>
+                          {hackathon.name}
+                        </a>
 
-                      <span className="inline-flex gap-x-1">
-                        {hackathon.badges.map((badge) => (
-                          <Badge
-                            variant="secondary"
-                            className="align-middle text-xs"
-                            key={badge}
-                          >
-                            {badge}
-                          </Badge>
-                        ))}
-                      </span>
-                    </h3>
-                    <div className="text-sm tabular-nums text-gray-500">
-                      {hackathon.start} {hackathon.end && "-"} {hackathon.end}
+                        <span className="inline-flex gap-x-1">
+                          {hackathon.badges.map((badge) => (
+                            <Badge
+                              variant="secondary"
+                              className="align-middle text-xs"
+                              key={badge}
+                            >
+                              {badge}
+                            </Badge>
+                          ))}
+                        </span>
+                      </h3>
+                      <div className="text-sm tabular-nums text-gray-500">
+                        {hackathon.start} {hackathon.end && "-"} {hackathon.end}
+                      </div>
                     </div>
-                  </div>
 
-                  <h4 className="font-mono text-sm leading-none">
-                    {hackathon.title}
-                  </h4>
-                </CardHeader>
-                <CardContent className="mt-2 text-xs">
-                  {hackathon.description}
-                  <br />
-                  {hackathon.technologies}
-                </CardContent>
-              </Card>
-            );
-          })}
+                    <h4 className="font-mono text-sm leading-none">
+                      {hackathon.title}
+                    </h4>
+                  </CardHeader>
+                  <CardContent className="mt-2 flex flex-col text-xs">
+                    {hackathon.description}
+                    <br />
+                    <span className="mt-1">
+                      <span className="font-semibold text-primary">
+                        Technologies:
+                      </span>{" "}
+                      {hackathon.technologies.map((t, i) => (
+                        <>
+                          <span className="underline">{t}</span>
+                          {i < hackathon.technologies.length && ","}{" "}
+                        </>
+                      ))}
+                    </span>
+                  </CardContent>
+                </Card>
+              );
+            })}
+          </div>
         </Section>
 
         <Section className="print-force-new-page scroll-mb-16">

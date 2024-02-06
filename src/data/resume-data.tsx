@@ -86,8 +86,16 @@ export const RESUME_DATA = {
       badges: ["24H"],
       description:
         "As part of a team of 5 Imperial Computing students, developed an AI powered tool that performed web scraping and analysis of trading statements from the London Stock Exchange website. Our tool successfully navigated the statements' biased and overly positive corporate language, providing fact checking and context to the user by searching the web with LangChain. As an individual, I trained a custom BERT language model to perform sentiment analysis on the positivity of each sentence within the statement. I also built out the entire frontend of the app and contributed to the backend.",
-      technologies:
-        "Technologies: Python, Flask, TypeScript, React/Next.js, LangChain, Docker, Hugging Face, OpenAI.",
+      technologies: [
+        "Python",
+        "Flask",
+        "TypeScript",
+        "React/Next.js",
+        "LangChain",
+        "Docker",
+        "Hugging Face",
+        "OpenAI",
+      ],
     },
     {
       name: "AI Ventures Hackathon",
@@ -98,7 +106,7 @@ export const RESUME_DATA = {
       badges: ["24H"],
       description:
         "Worked with two business students to create an AI-powered consulting platform, which we pitched to VCs. Our platform aimed to tackle issues faced such as the high costs of traditional consulting, limited access to expertise and support, difficulty finding the right experts, and a lack of transparency and accountability. As the sole technical member of our team, developed gainshare contract generation, consultant profiles, a dashboard, and a chatbot custom-trained to match our clients directly to the most relevant consultants. Gained valuable experience working in a team with diverse skillsets and producing software quickly.",
-      technologies: "Technologies: TypeScript, React/Next.js, OpenAI.",
+      technologies: ["TypeScript", "React/Next.js", "OpenAI"],
     },
   ],
   skills: [
