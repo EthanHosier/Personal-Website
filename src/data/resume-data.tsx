@@ -73,7 +73,7 @@ export const RESUME_DATA = {
       end: "",
       description:
         "Founded a software startup dedicated to empowering small, independent restaurants through affordable solutions. Conducted market research to understand industry needs and, as the sole full stack developer, developed a comprehensive content management system, dashboard and individualized websites. Gained valuable experience in product development, market analysis, and demonstrated proficiency in designing and implementing full stack solutions.",
-      technologies: "Technologies: TypeScript, React/Next.js, Firebase.",
+      technologies: ["TypeScript", "React/Next.js", "Firebase"],
     },
   ],
   hackathons: [

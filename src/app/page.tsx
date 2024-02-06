@@ -145,10 +145,20 @@ export default function Page() {
                     {work.title}
                   </h4>
                 </CardHeader>
-                <CardContent className="mt-2 text-xs">
+                <CardContent className="mt-2 flex flex-col text-xs">
                   {work.description}
                   <br />
-                  {work.technologies}
+                  <span className="mt-1">
+                    <span className="font-semibold text-primary">
+                      Technologies:
+                    </span>{" "}
+                    {work.technologies.map((t, i) => (
+                      <>
+                        <span className="underline">{t}</span>
+                        {i < work.technologies.length && ","}{" "}
+                      </>
+                    ))}
+                  </span>
                 </CardContent>
               </Card>
             );
