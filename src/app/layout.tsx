@@ -4,7 +4,6 @@ import { Inter } from "next/font/google";
 
 import "./globals.css";
 import React from "react";
-import { ThemeProvider } from "@/components/theme-provider";
 
 export const metadata: Metadata = {
   title: "Ethan Hosier",
@@ -25,14 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={inter.className}>
-      <ThemeProvider
-        attribute="class"
-        defaultTheme="system"
-        enableSystem
-        disableTransitionOnChange
-      >
-        <body>{children}</body>
-      </ThemeProvider>
+      <body>{children}</body>
       <Analytics />
     </html>
   );
