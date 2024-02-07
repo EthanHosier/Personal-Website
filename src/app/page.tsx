@@ -148,15 +148,18 @@ export default function Page() {
                 <CardContent className="mt-2 flex flex-col text-xs">
                   {work.description}
                   <br />
-                  <span className="mt-1">
+                  <span className="mt-1 flex gap-1">
                     <span className="font-semibold text-primary">
                       Technologies:
                     </span>{" "}
                     {work.technologies.map((t, i) => (
-                      <>
-                        <span className="underline">{t}</span>
-                        {i < work.technologies.length && ","}{" "}
-                      </>
+                      <Badge
+                        className="px-1 py-0 text-[10px]"
+                        variant="secondary"
+                        key={t}
+                      >
+                        {t}
+                      </Badge>
                     ))}
                   </span>
                 </CardContent>
@@ -239,15 +242,18 @@ export default function Page() {
                   <CardContent className="mt-2 flex flex-col text-xs">
                     {hackathon.description}
                     <br />
-                    <span className="mt-1">
+                    <span className="mt-1 flex gap-1">
                       <span className="font-semibold text-primary">
                         Technologies:
                       </span>{" "}
                       {hackathon.technologies.map((t, i) => (
-                        <>
-                          <span className="underline">{t}</span>
-                          {i < hackathon.technologies.length && ","}{" "}
-                        </>
+                        <Badge
+                          className="px-1 py-0 text-[10px]"
+                          variant="secondary"
+                          key={t}
+                        >
+                          {t}
+                        </Badge>
                       ))}
                     </span>
                   </CardContent>
