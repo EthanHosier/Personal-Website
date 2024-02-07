@@ -148,7 +148,7 @@ export default function Page() {
                 <CardContent className="mt-2 flex flex-col text-xs">
                   {work.description}
                   <br />
-                  <span className="mt-1 flex gap-1">
+                  <span className="mt-1 flex flex-wrap gap-1">
                     <span className="font-semibold text-primary">
                       Technologies:
                     </span>{" "}
@@ -242,7 +242,7 @@ export default function Page() {
                   <CardContent className="mt-2 flex flex-col text-xs">
                     {hackathon.description}
                     <br />
-                    <span className="mt-1 flex gap-1">
+                    <span className="mt-1 flex flex-wrap gap-1">
                       <span className="font-semibold text-primary">
                         Technologies:
                       </span>{" "}
