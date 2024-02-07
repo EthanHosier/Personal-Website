@@ -85,7 +85,7 @@ export const RESUME_DATA = {
       end: "",
       badges: ["24H"],
       description:
-        "As part of a team of 5 Imperial Computing students, developed an AI powered tool that performed web scraping and analysis of trading statements from the London Stock Exchange website. Our tool successfully navigated the statements' biased and overly positive corporate language, providing fact checking and context to the user by searching the web with LangChain. As an individual, I trained a custom BERT language model to perform sentiment analysis on the positivity of each sentence within the statement. I also built out the entire frontend of the app, as well as some of the backend.",
+        "As part of a team of five Imperial Computing students, developed an AI powered tool that performed web scraping and analysis of trading statements from the London Stock Exchange website. Our tool successfully navigated the statements' biased and overly positive corporate language, providing fact checking and context to the user by searching the web with LangChain. As an individual, I trained a custom BERT language model to perform sentiment analysis on the positivity of each sentence within the statement. I also built out the entire frontend of the app, as well as some of the backend.",
       technologies: [
         "Python",
         "Flask",
