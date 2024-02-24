@@ -222,7 +222,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Wacc Compilor",
+      title: "Wacc Compiler",
       techStack: [
         "In Progress",
         "University Project",
