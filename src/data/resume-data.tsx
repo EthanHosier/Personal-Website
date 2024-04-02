@@ -35,7 +35,7 @@ export const RESUME_DATA = {
   personalWebsiteUrl: "https://ethanhosier.com",
   contact: {
     email: "ethanjhosier@gmail.com",
-    tel: "+447476133726",
+    tel: "",
     social: [
       {
         name: "GitHub",
