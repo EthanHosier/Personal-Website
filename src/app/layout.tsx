@@ -8,7 +8,7 @@ import React from "react";
 export const metadata: Metadata = {
   title: "Ethan Hosier",
   description:
-    "Ethan Hosier. Second Year Computing Student at Imperial College London, passionate about writing software.",
+    "Ethan Hosier. Third Year Computing Student at Imperial College London, passionate about writing software.",
 };
 
 // If loading a variable font, you don't need to specify the font weight

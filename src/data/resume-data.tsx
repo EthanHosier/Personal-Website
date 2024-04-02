@@ -26,16 +26,16 @@ export const RESUME_DATA = {
   locationLink:
     "https://www.google.com/maps/search/london/@51.4850816,-0.1998848,14z?entry=ttu",
   about:
-    "Second Year Computing Student at Imperial College London, passionate about writing software.",
+    "Third Year Computing Student at Imperial College London, passionate about writing software.",
   summary:
-    "Ever since I taught myself Python when I was 13, I've had a passion for writing software. I spend lots of my free time learning new technologies and building cool things. I'd love to connect and help with any projects you are working on!",
+    "Looking for job opportunities, particularly in early stage startups",
 
   avatarUrl:
     "https://avatars.githubusercontent.com/u/80335311?s=400&u=e3ffb939cb151c470f31de4b85cff93dfaa6f4b0&v=4",
   personalWebsiteUrl: "https://ethanhosier.com",
   contact: {
     email: "ethanjhosier@gmail.com",
-    tel: "+447476133726",
+    tel: "",
     social: [
       {
         name: "GitHub",
@@ -63,6 +63,38 @@ export const RESUME_DATA = {
     },
   ],
   work: [
+    {
+      company: "Revolut",
+      link: "",
+      badges: ["Internship"],
+      title: "Software Engineer (Intern)",
+      logo: ParabolLogo,
+      start: "July 2024",
+      end: "Sept 2024",
+      description:
+        "Designed and implemented the backend of an Authorised Data Source that consolidates product and pricing rule configurations into a single interface, eliminating the need for manual database queries—used in production daily by the CEO and leadership team. Leveraged concurrency techniques and caching to reduce query latency by 99%, significantly improving system performance and efficiency. Integrated with multiple internal services, including the Terms Service to assign legal documents to tax configurations, and the Revolut People Platform to incorporate employee details into the admin app, ensuring seamless interaction across different systems",
+      technologies: ["Java", "TypeScript", "React"],
+    },
+    {
+      company: "Mia Marketing",
+      link: "",
+      badges: ["Founder"],
+      title: "Co-Founder, CTO",
+      logo: ParabolLogo,
+      start: "2024",
+      end: "",
+      description:
+        "Led the development of an MVP for a fully autonomous AI-driven digital marketing platform, attracting interest from over 40 different companies, including those with annual revenues exceeding £1 million. Built a scalable, microservices-based infrastructure on AWS and Azure of proxies, web crawlers and scrapers. Developed automated workflows for data-driven social media content creation, posting, and lead generation through personalized email outreach campaigns. Awarded £2,500 in prize money from Imperial College London’s Entrepreneurship Journey, alongside £3,500 in Azure credits from the Microsoft Startup Hub",
+      technologies: [
+        "Go",
+        "Python",
+        "Typescript",
+        "React.js",
+        "AWS",
+        "Microsoft Azure",
+        "Docker",
+      ],
+    },
     {
       company: "321 Restaurants",
       link: "",
@@ -113,20 +145,48 @@ export const RESUME_DATA = {
     "Java",
     "Python",
     "C",
-    "Golang",
+    "Go",
     "Haskell",
     "Scala",
     "TypeScript",
     "JavaScript",
-
+    "AWS",
+    "Microsoft Azure",
+    "Docker",
     "SQL",
-    "React/Next.js",
+    "React",
+    "Next.js",
     "React Native",
     "Node.js",
     "Pandas",
     "Pytorch",
   ],
   projects: [
+    {
+      title: "Wacc Compiler",
+      techStack: [
+        "University Project",
+        "Group project",
+        "Scala",
+        "Typescript",
+        "Next.js",
+      ],
+      description:
+        "Compiler for the WACC programming language that translates WACC source code into x86-64 machine code, handling lexical analysis, semantic analysis, code generation, and optimization. Web-based IDE built with Monaco editor and Next.js, supporting WACC code writing, compilation, and execution with syntax and error highlighting.",
+      logo: "",
+    },
+    {
+      title: "Groupify",
+      techStack: [
+        "University Project",
+        "Group project",
+        "Typescript",
+        "React Native",
+      ],
+      description:
+        "Mobile app for university students to find project groups, inspired by Tinder, featuring a custom matching algorithm, project creation, recommendations, and integrated chat rooms. Collaborated with stakeholders to define and refine requirements, ensuring user needs alignment.",
+      logo: "",
+    },
     {
       title: "Large Language Model (GPT)",
       techStack: ["Side Project", "Python", "Pytorch", "Jupyter Notebook"],
@@ -220,18 +280,6 @@ export const RESUME_DATA = {
         label: "github.com",
         href: "https://github.com/EthanHosier/airbnb",
       },
-    },
-    {
-      title: "Wacc Compiler",
-      techStack: [
-        "In Progress",
-        "University Project",
-        "Group project",
-        "Scala",
-      ],
-      description:
-        "Given a valid Wacc input file, generates executable code compatible with the x86-64 architecture.",
-      logo: "",
     },
   ],
 } as const;
